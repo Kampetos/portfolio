@@ -1,0 +1,55 @@
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<div class="card">
+    <div class="container">
+        <h2><b>Laptop Store</b></h2>
+        <img src="laptop shop.png" alt="project" width="150" style="width: 50%; border-radius: 10px;">
+        <p>
+        This project is about a laptop store where customers can buy laptops and the administrator manages the laptops using a Content Management System (CMS).
+        Built using HTML, CSS, JavaScript, PHP, and MySQL, and libraries like jQuery and Bootstrap.
+        </p>
+        <a href="https://drive.google.com/file/d/1wE0LFzzbYS5l1sK_1RZadDOS8flq1Rt6/view?usp=sharing" target="_blank"><button class="btn">Download</button></a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+        <h2><b>Honda Genuine Parts</b></h2>
+        <img src="honda genuine parts.png" alt="project" style="width: 50%; border-radius: 10px;">
+        <p>
+            This project involves selling motorcycle spare parts such as oil, radiator covers, keys, etc.
+            Has a Content Management System (CMS) for the administrator to manage the parts.
+            Built using Laravel, with MySQL as the database.
+        </p>
+        <a href="https://drive.google.com/file/d/12r9cfLwyy_X2uGd1CVaFi-NEu3ZwjVLQ/view?usp=sharing" target="_blank"><button class="btn">Download</button></a>
+    </div>
+</div>
