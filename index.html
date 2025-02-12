@@ -72,6 +72,9 @@
         .show::-webkit-scrollbar {
             display: none;
         }
+        ul{
+            list-style: none;
+        }
     </style>
 </head>
 <body>
@@ -85,7 +88,7 @@
                     </p>
                 </td>
                 <td>
-                    <img src="w.png" alt="Profile Picture">
+                    <img src="img/w.png" alt="Profile Picture">
                 </td>
             </tr>
         </table>
@@ -107,18 +110,18 @@
 
 <script>
     $(document).ready(function() {
-        $(".show").load("about.php");
+        $(".show").load("about.html");
         $("#about").click(function() {
-            $(".show").load("about.php");
+            $(".show").load("about.html");
         });
         $("#project").click(function() {
-            $(".show").load("project.php");
+            $(".show").load("project.html");
         });
         $("#skill").click(function() {
-            $(".show").load("skill.php");
+            $(".show").load("skill.html");
         });
         $("#contact").click(function() {
-            $(".show").load("contact.php");
+            $(".show").load("contact.html");
         });
     });
 </script>
